@@ -8,3 +8,7 @@
 # rstudio-user@6d45ad597dbf:/cloud/project$ git push origin master
 
 # more
+
+library(tidyverse)
+
+df_ny <- read_rds("data/newyork_2018.rds")
